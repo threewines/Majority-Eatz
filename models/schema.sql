@@ -38,13 +38,13 @@ CREATE TABLE search
 	resultType VARCHAR(200) NOT NULL,
 	resultName VARCHAR(255) NOT NULL,
      resultAddress VARCHAR(255) NOT NULL,
-     resultpcity VARCHAR(255) NOT NULL,
-     resultstate VARCHAR(10) NOT NULL,
-     resultzip VARCHAR(20) NOT NULL,
-	addedAt DATETIME,
-     resultrating VARCHAR(100),
-     resultwebsite VARCHAR(100),
+     resultCity VARCHAR(255) NOT NULL,
+     resultState VARCHAR(10) NOT NULL,
+     resultZip VARCHAR(20) NOT NULL,
+	resultRating VARCHAR(100),
+     resultWebsite VARCHAR(100),
      resultBudget VARCHAR(100),
+	resultImage STRING,
 	PRIMARY KEY (id)
 );
 
