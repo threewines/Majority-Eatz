@@ -41,10 +41,10 @@ CREATE TABLE search
      resultpcity VARCHAR(255) NOT NULL,
      resultstate VARCHAR(10) NOT NULL,
      resultzip VARCHAR(20) NOT NULL,
-	addedAt DATETIME,
-     resultrating VARCHAR(100),
+	resultrating VARCHAR(100),
      resultwebsite VARCHAR(100),
      resultBudget VARCHAR(100),
+	resultImage STRING,
 	PRIMARY KEY (id)
 );
 
