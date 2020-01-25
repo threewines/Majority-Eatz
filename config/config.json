@@ -1,16 +1,16 @@
 {
   "development": {
-    "username": "c4we99zgynnvzhl0",
-    "password": "g7sfygjn3oxd1pvn",
-    "database": "r4kmg0ymjqwcrzzk",
-    "host": "q57yawiwmnaw13d2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "username": "root",
+    "password": "Avionics@1985",
+    "database": "majorityEatzDB",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
-    "username": "c4we99zgynnvzhl0",
-    "password": "g7sfygjn3oxd1pvn",
-    "database": "r4kmg0ymjqwcrzzk",
-    "host": "q57yawiwmnaw13d2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "username": "root",
+    "password": "Avionics@1985",
+    "database": "majorityEatzDB",
+    "host": "localhost",
     "dialect": "mysql",
     "logging": false
   },
