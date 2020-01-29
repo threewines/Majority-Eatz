@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "Ineedajob4!",
+    "password": "TexasTina2019!",
     "database": "majorityEatzDB",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Avionics@1985",
+    "password": "TexasTina2019!",
     "database": "majorityEatzDB",
     "host": "localhost",
     "dialect": "mysql",
