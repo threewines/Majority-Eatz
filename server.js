@@ -40,3 +40,27 @@ db.sequelize.sync().then(function() {
     console.log("App listening on PORT " + PORT);
   });
 });
+
+var server = require('http').Server(app);
+var io = require('socket.io')(server);
+
+app.get('/', function (req, res) {
+res.sendFile(__dirname + '/index.html');
+});
+// let app = express();
+// let server = http.server(app);
+// let io = socketIO(server);
+
+// server.listen(port, ()=>{
+//   console.log("Server is up on port ${port}");
+// })
+
+io.on('connection', function(socket){
+  socket.emit('news', { hello: 'world'});
+  socket.on('my other event', function (data) {
+    console.log('a user connected');  
+  });
+});
+
+
+
